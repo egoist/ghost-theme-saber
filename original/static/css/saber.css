@@ -1,5 +1,5 @@
 body{
-    font: 13px/1.4 "Open Sans",Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
     color: #333;
     background-color: #fff;
     margin: 0;
@@ -42,7 +42,7 @@ body{
 .post-title{
     display: inline;
     font-weight: 300;
-    font-size: 22px;
+    font-size: 20px;
     margin: 0;
     word-wrap: break-word;
 }
