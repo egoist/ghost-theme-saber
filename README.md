@@ -1,6 +1,6 @@
 #Saber
 
-## What's is Saber
+## What is Saber
 
 An extremely readable theme for WordPress/Ghost/Typecho/Farbox
 
