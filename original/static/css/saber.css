@@ -16,6 +16,7 @@ body{
     font-weight: 300;
 }
 .articles{
+    padding-left: 0;
     margin-top: 20px;
     list-style: none;
 }
