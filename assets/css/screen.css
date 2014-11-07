@@ -470,16 +470,25 @@ sup {
   color: #ccc;
   margin-top: 10px;
 }
-.tag-head{
+.tag-head,.author-profile{
   background-color: #f3f3f3;
   text-align: center;
   padding: 30px 0;
 }
-.tag-head h1,.tag-head h2{
+.tag-head h1,.tag-head h2,.author-profile h1,.author-profile h2{
   margin: 0;
   font-weight: 300;
 }
-h2.page-description{
+h2.page-description,h2.author-bio{
   color: #999;
   margin-top: 5px;
+}
+.author-stats{
+  color: #999;
+}
+.author-stats:before{
+  content: "- "
+}
+.author-stats:after{
+  content: " -"
 }

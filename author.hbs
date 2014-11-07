@@ -5,12 +5,6 @@
 
 {{! Everything inside the #author tags pulls data from the author }}
 {{#author}}
-    <header class="main-header author-head {{#if cover}}" style="background-image: url({{cover}}){{else}}no-cover{{/if}}">
-        <nav class="main-nav overlay clearfix">
-            <a class="back-button icon-arrow-left" href="{{@blog.url}}">Home</a>
-            <a class="subscribe-button icon-feed" href="{{url}}rss/">{{name}}</a>
-        </nav>
-    </header>
 
     <section class="author-profile inner">
         {{#if image}}
@@ -18,8 +12,11 @@
             <div class="img" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></div>
         </figure>
         {{/if}}
+        <div class="container">
         <h1 class="author-title">{{name}}</h1>
         <h2 class="author-bio">{{bio}}</h2>
+        </div>
+        
         <div class="author-meta">
             {{#if location}}<span class="author-location icon-location">{{location}}</span>{{/if}}
             {{#if website}}<span class="author-link icon-link"><a href="{{website}}">{{website}}</a></span>{{/if}}
