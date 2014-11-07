@@ -492,3 +492,10 @@ h2.page-description,h2.author-bio{
 .author-stats:after{
   content: " -"
 }
+.readmore{
+  float: right;
+  color: #777;
+}
+.readmore:hover{
+  color: #4183C4;
+}
