@@ -1,0 +1,47 @@
+{{!< default}}
+
+{{! The comment above "< default" means - insert everything in this file into
+    the {body} of the default.hbs template, which contains our header/footer. }}
+
+{{! Everything inside the #post tags pulls data from the post }}
+{{#post}}
+
+
+<main class="content" role="main">
+
+    <article class="{{post_class}}">
+
+        <header class="post-header">
+            <h2 class="post-title">{{title}}</h2>
+        </header>
+
+        <section class="post-content">
+            {{content}}
+        </section>
+
+        <footer class="post-footer">
+
+        
+        
+
+
+            <section class="post-meta">
+               {{#if author.image}}<img class="author-thumb" src="{{author.image}}" alt="Author image" nopin="nopin" />{{/if}}
+                {{author}}
+                {{tags prefix=" on "}}
+                <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+            </section>
+
+     
+
+           
+
+        </footer>
+
+    </article>
+    <section class="comments">
+    {{! Using Disqus or Duoshuo? Whatever you like }}
+    </section>
+</main>
+
+{{/post}}

@@ -1,17 +1,12 @@
-#Saber
+# Saber
 
-## What is Saber
+**An extremely readable theme for Ghost**
 
-An extremely readable theme for WordPress/Ghost/Typecho/Farbox
+Inspired by [Veganshe](http://www.veganshe.com)
 
-Work in progress and come soon.
+---
 
-## Donate
+Want a demo? see her alive at [my blog](https://0x142857.com)
 
-Alipay/Paypal: i@0x142857.com
 
-Bitcoin address: [12ExMbLmtYsyyj4GTcGQrB64M4DsiAN3eN](http://blockexplorer.com/address/12ExMbLmtYsyyj4GTcGQrB64M4DsiAN3eN)
 
-## License
-
-[GPLv3 License](license.md)
