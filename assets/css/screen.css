@@ -407,6 +407,7 @@ sup {
 }
 .post-excerpt,.post-content{
   font-family: Helvetica,arial,sans-serif;
+  line-height: 1.7;
 }
 .post-excerpt p,.post-content p{
   margin: 0 0 23px;
