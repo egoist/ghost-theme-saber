@@ -1,6 +1,6 @@
 # Saber
 
-Ghost theme made simple
+Ghost theme made simple, not a line of JavaScript used.
 
 ## Quick start for installation
 
