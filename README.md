@@ -1,7 +1,6 @@
 # Saber
 
-- Ghost theme made simple
-- 
+Ghost theme made simple
 
 ## Quick start for installation
 
@@ -14,13 +13,17 @@ git clone https://github.com/0x142857/Saber.git
 
 Inspired by [Veganshe](http://www.veganshe.com) && [GitHub Blog](https://github.com/blog)
 
+# Saber? Why?
+
+[Saber (Fate/stay night)](http://en.wikipedia.org/wiki/Saber_(Fate/stay_night))
+
 ## Demonstration
 
 The theme is used in [Git Hunt's blog](https://blog.githunt.io).
 
 ## License
 
-MIT.
+[MIT](LICENSE).
 
 
 
