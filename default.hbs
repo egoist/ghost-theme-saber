@@ -16,7 +16,7 @@
 
     {{! Styles'n'Scripts }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
-
+    <link rel="stylesheet" type="text/css" href="{{asset "css/minEmoji.css"}}" />
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
@@ -24,13 +24,12 @@
     <header class="site-header">
         <div class="container">
             <h1 class="site-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
-            <nav class="nav-right">
+            <!--<nav class="nav-right">
                 <ul class="pages clearfix">
                     <li><a href="{{@blog.url}}">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Links</a></li>
+                    <li><a href="/about">About</a></li>
                 </ul>
-            </nav>
+            </nav>-->
         </div>
         
     </header>
@@ -44,7 +43,7 @@
 
     
     
-
-
+    <script type="text/javascript" src="{{asset "js/minEmoji.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/main.js"}}"></script>
 </body>
 </html>

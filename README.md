@@ -1,6 +1,6 @@
 # Saber
 
-Ghost theme made simple, not a line of JavaScript used.
+Ghost theme made simple, with emoji support!
 
 ## Quick start for installation
 

@@ -822,6 +822,11 @@ width: 200px;}
 .pages li+li{
   margin-left: 40px;
 }
+.emoji{
+  width: 20px;
+  height: 20px;
+  vertical-align: top;
+}
 .post{
   width: 960px;
   margin: 4rem auto;
