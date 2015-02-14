@@ -29,9 +29,9 @@ Do wanna a navigation menu for your blog? Remove the comment symbols in `default
 </header>
 ```
 
--EOF- Now enjoy and have fun blogging with the elegant Ghost blog 😋
+Now enjoy and have fun blogging with the elegant Ghost blog 😋
 
-Inspired by [Veganshe](http://www.veganshe.com) && [GitHub Blog](https://github.com/blog)
+Inspired by [Veganshe](http://www.veganshe.com) && [The GitHub Blog](https://github.com/blog)
 
 # Saber? Why?
 
