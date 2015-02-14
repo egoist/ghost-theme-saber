@@ -13,6 +13,23 @@ git clone https://github.com/0x142857/Saber.git
 3. Restart your Ghost instance and select `Saber` in your Ghost backstage settings
 ```
 
+Do wanna a navigation menu for your blog? Remove the comment symbols in `default.hbs`:
+
+```html
+<header class="site-header">
+  <div class="container">
+    <h1 class="site-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+    <!--<nav class="nav-right">
+      <ul class="pages clearfix">
+        <li><a href="{{@blog.url}}">Home</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>-->
+  </div>
+</header>
+```
+
+-EOF- Now enjoy and have fun blogging with the elegant Ghost blog 😋
 
 Inspired by [Veganshe](http://www.veganshe.com) && [GitHub Blog](https://github.com/blog)
 
