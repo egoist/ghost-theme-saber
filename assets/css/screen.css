@@ -519,8 +519,8 @@ width: 200px;}
   padding: 0;
   margin: 0;
   font-size: 100%;
-  word-break: normal;
-  white-space: pre;
+  word-break: break-word;
+  white-space: pre-line;
   background: transparent;
   border: 0;
 }
