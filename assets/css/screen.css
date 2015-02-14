@@ -784,7 +784,7 @@ width: 200px;}
   vertical-align: middle;
 }
 .container{
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 .site-header{
@@ -828,7 +828,7 @@ width: 200px;}
   vertical-align: top;
 }
 .post{
-  width: 960px;
+  max-width: 960px;
   margin: 4rem auto;
   padding-bottom: 30px;
   color: #666;
@@ -866,7 +866,7 @@ width: 200px;}
 }
 .site-footer{
   color: #999;
-  width: 960px;
+  max-width: 960px;
   margin: 20px auto 40px auto;
   border-top: 1px solid #eee;
   padding-top: 40px;
@@ -887,7 +887,7 @@ width: 200px;}
 }
 .pagination {
   position: relative;
-  width: 960px;
+  max-width: 960px;
   margin: 4rem auto;
   font-size: 14px;
   color: #9EABB3;
@@ -953,4 +953,11 @@ h2.page-description,h2.author-bio{
 }
 .readmore:hover{
   color: #4183C4;
+}
+
+@media (max-width: 468px) {
+  .container, .site-footer, .pagination, .post {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
