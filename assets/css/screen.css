@@ -520,7 +520,7 @@ width: 200px;}
   margin: 0;
   font-size: 100%;
   word-break: break-word;
-  white-space: pre-line;
+  white-space: pre-wrap;
   background: transparent;
   border: 0;
 }
