@@ -822,10 +822,10 @@ width: 200px;}
 .pages li+li{
   margin-left: 40px;
 }
-.emoji{
+img.emojione{
   width: 20px;
   height: 20px;
-  vertical-align: top;
+  vertical-align: middle;
 }
 .post{
   max-width: 960px;

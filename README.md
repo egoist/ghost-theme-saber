@@ -9,6 +9,7 @@ Ghost theme made simple, with emoji support!
 ```
 1. cd into your Ghost theme directory and then 
 git clone https://github.com/0x142857/Saber.git
+2. `cd Saber` and run `bower install`
 2. Edit post.hbs to use your own comment service
 3. Restart your Ghost instance and select `Saber` in your Ghost backstage settings
 ```
