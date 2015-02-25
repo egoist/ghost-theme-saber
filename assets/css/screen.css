@@ -413,10 +413,10 @@ a:hover {
 .post-content hr {
   height: 1px;
 padding: 0;
-margin: 16px auto;
-background-color: #e7e7e7;
+margin: 3.2em auto;
+background-color: #edece4;
 border: 0 none;
-width: 200px;}
+width: 100%;}
 
 .post-content ul,
 .post-content ol {
@@ -810,6 +810,11 @@ width: 200px;}
 }
 .nav-right a:hover{
   color: #4183C4;
+}
+.page .post-title{
+  margin-bottom: 1.3em;
+  padding-bottom: 1.3em;
+  border-bottom: 1px solid #edece4;
 }
 .pages{
   list-style: none;
