@@ -803,13 +803,16 @@ width: 100%;}
 .nav-right{
   float: right;
 }
+.nav-right a {
+  display: block;
+  border-bottom: 1px solid transparent;
+}
+.nav-right a.active {
+  background-color: #eee;
+}
 .nav-right a:hover{
   color: #4183C4;
-}
-.page .post-title{
-  margin-bottom: 1.3em;
-  padding-bottom: 1.3em;
-  border-bottom: 1px solid #edece4;
+  border-bottom-color: #4183C4;
 }
 .pages{
   list-style: none;

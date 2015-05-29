@@ -25,6 +25,18 @@
 <main class="content" role="main">
 
     {{! The tag below includes the post loop - partials/loop.hbs }}
-    {{> "loop"}}
+   {{#foreach posts}}
+    <article class="{{post_class}}">
+        <header class="post-header">
+            <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
+        </header>
+        <section class="post-content">{{content}}</section>
+        <footer class="post-meta">
+            {{author}}
+            {{tags prefix=" on "}}
+            <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+        </footer>
+    </article>
+    {{/foreach}}
 
 </main>
