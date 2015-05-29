@@ -2,7 +2,7 @@
 
 Ghost theme made simple, with emoji support!
 
-![Saber](http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-198744.jpg)
+![Saber](http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-193382.jpg)
 
 ## Quick start for installation
 
